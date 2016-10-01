@@ -1,0 +1,15 @@
+LOCAL_LIBRARIES = -lm -lMesaGL -lMesaGLU -lXm -lXt -lSM -lICE -lXmu -lXext -lX11
+CFLAGS = -O2 -fno-strength-reduce -Dlinux -D__i686__ -I/usr/X11R6/include -I/usr/include  
+
+
+
+CC = g++
+
+
+SRCS =  animation.c datacontrol.c details.c editor.c file.c gui.c model.c input.c timer.c Sizif.c 
+OBJS =  animation.o datacontrol.o details.o editor.o file.o gui.o model.o input.o timer.o Sizif.o   
+
+
+NormalLibraryObjectRule()
+
+ComplexProgramTarget(Sizif)

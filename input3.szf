@@ -1,0 +1,33 @@
+The file used by VidOrbit to set the intitial conditions and some constants.
+3
+Type in the mass for object1:
+1.989e30
+Type in the mass for object2:
+5.974e24
+mass object3:
+6e24
+Type in the x, y, and z positions for object 1 on the three lines below:
+0
+0
+0
+Type in the x, y, and z positions for object 2 on the three lines below:
+0
+0
+7.48e10
+objec3 positions:
+0
+0
+14e10
+Type in the x, y, and z velocities for object 1 on the three lines below:
+0
+0
+0
+Type in the x, y, and z velocities for object 2 on the three lines below:
+40000
+0
+0
+velocities object2
+20000
+0
+0
+

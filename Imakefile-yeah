@@ -1,0 +1,15 @@
+LOCAL_LIBRARIES = -lm -lXm -lXt -lSM -lICE -lXmu -lXext -lX11
+CFLAGS = -O2 -fno-strength-reduce -Dlinux -D__i686__ -I/usr/X11R6/include -I/usr/include  
+XPMLIB = -L/usr/libX11 -lMesaGL -lMesaGLU -lMesatk -lMesaGLw -lXm -lXt -lSM -lICE -lX11 
+
+
+CC = g++
+
+
+SRCS =   Sizif.c 
+OBJS =  Sizif.o   
+
+
+NormalLibraryObjectRule()
+
+ComplexProgramTarget(Sizif)
